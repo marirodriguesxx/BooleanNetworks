@@ -1,0 +1,115 @@
+digraph G {
+	IAP	
+	NFkB
+	IAP -> NFkB	
+	Mito
+	IAP -> Mito	
+	IAP -> Cas3	 
+	Cas6	 
+	IAP -> Cas6	 
+	IkB	
+	NFkB -> IkB	 
+	BID	
+	Mito -> BID	 
+	BclX	
+	Mito -> BclX	
+	Cas3 -> IAP	 
+	Cas3 -> Cas6	
+	Cas8
+	Cas3 -> Cas8	
+	APC	 
+	Cas3 -> APC	
+	Cas6 -> IAP	 
+	Cas6 -> Cas3	 
+	Cas8 -> Cas6	 
+	cFLIP
+	Cas8 -> cFLIP	
+	FADD	
+	Cas8 -> FADD	
+	TRAF	
+	cFLIP -> TRAF	
+	TRADD	
+	FADD -> TRADD	 
+	MEKK1	
+	MEKK1 -> TRAF	
+	TRAF -> TRADD	 
+	Cas9	
+	Cas9 -> IAP	
+	Cas9 -> Cas3	
+	AKT	 
+	Cas9 -> AKT	
+	Cas12	
+	Cas9 -> Cas12	 
+	PIP3	
+	AKT -> PIP3	 
+	Cas7	
+	Cas12 -> Cas7	
+	TNFR1	 
+	TRADD -> TNFR1	 
+	TNF	
+	TNFR1 -> TNF	 
+	PIP2	
+	GFR	 
+	PIP2 -> GFR	 
+	GF	 
+	GFR -> GF	
+	BAD	 
+	BAD -> AKT	 
+	p53	
+	BAD -> p53	
+	JNK	
+	p53 -> JNK	
+	Mdm2	 
+	p53 -> Mdm2	 
+	DNADamageEvent	
+	p53 -> DNADamageEvent	
+	TRAF2	
+	RIP	 
+	TRAF2 -> RIP	
+	RIP -> TRADD	 
+	PIP3 -> PIP2	 
+	PI3K	
+	PIP3 -> PI3K	
+	PTEN	
+	PIP3 -> PTEN	
+	PI3K -> GFR	
+	PTEN -> p53	
+	JNKK	
+	JNKK -> MEKK1	
+	Apaf1	
+	Apaf1 -> p53	
+	A20	
+	A20 -> NFkB	 
+	BID -> Cas8	
+	BID -> p53	
+	BID -> JNK	
+	BID -> BclX	
+	K	 
+	JNK -> K	 
+	BclX -> NFkB	 
+	BclX -> BAD	 
+	BclX -> p53	
+	IkB -> NFkB	 
+	IKK	
+	IkB -> IKK	
+	IKK -> AKT	 
+	IKK -> A20	 
+	NIK	
+	IKK -> NIK	 
+	APC -> IAP	 
+	APC -> Mito	
+	APC -> Cas9	 
+	APC -> Apaf1	 
+	NIK -> TRAF2	
+	TNFR2	
+	TNFR2 -> TNF	
+	Cas3dummy	 
+	Cas3dummy -> Cas3	 
+	Mdm2 -> AKT	
+	Mdm2 -> p53	 
+	Cas7 -> IAP	
+	Cas7 -> Cas8	
+	Cas7 -> APC	
+	DNADamageEvent -> Cas3	 
+	DNADamageEvent -> Cas3dummy	 
+}

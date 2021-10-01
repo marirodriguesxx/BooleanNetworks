@@ -1,0 +1,4 @@
+/mnt/c/Users/Mariana Rodrigues/Documents/BooleanNetworks/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Mariana Rodrigues/Documents/BooleanNetworks/build/CMakeFiles/Graph.dir
+/mnt/c/Users/Mariana Rodrigues/Documents/BooleanNetworks/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Mariana Rodrigues/Documents/BooleanNetworks/build/CMakeFiles/main.dir
